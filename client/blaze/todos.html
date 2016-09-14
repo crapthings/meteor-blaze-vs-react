@@ -1,0 +1,21 @@
+<template name='todos'>
+  {{#if Template.subscriptionsReady}}
+    <h3>blaze</h3>
+    {{#each todos}}
+      {{> todo}}
+    {{/each}}
+  {{else}}
+    <div>loading...</div>
+  {{/if}}
+</template>
+
+<template name='todo'>
+  <p class='cursor-pointer unselectable'>
+    <input type='checkbox' checked='{{completed}}' />
+    {{#if completed}}
+      <del>{{content}}</del>
+    {{else}}
+      <span>{{content}}</span>
+    {{/if}}
+  </p>
+</template>

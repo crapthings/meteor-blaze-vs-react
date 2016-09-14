@@ -1,0 +1,16 @@
+{
+  "name": "meteor-blaze-vs-react",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "faker": "^3.1.0",
+    "lodash": "^4.15.0",
+    "meteor-node-stubs": "~0.2.0",
+    "moment": "^2.15.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-komposer": "^1.13.1"
+  }
+}
